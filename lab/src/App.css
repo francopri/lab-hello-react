@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.h4{
+  font-weight: lighter;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  width: fit-content;
+  
+}
+
+.background{
+  background-color: white;
+  color: black;
+}
+
+
