@@ -2,14 +2,12 @@ function Items(props) {
 
     return (
 
-        <div className="items">
-        
-            <div>{props.image}</div>
-            <div><h3>{props.text}</h3></div>
-            <div><h4>{props.paragraph}</h4></div>
-            <br />
-
+        <div className='items'>
+            <img src={props.image} alt="icone" />
+            <h3>{props.text}</h3>
+            <h4>{props.paragraph}</h4>
         </div>
+
     );
 }
 

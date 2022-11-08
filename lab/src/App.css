@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
+.container {
+  padding: 20px;
+  width: 90%;
+}
+
+.header{
+  padding-bottom: 30px;
+  background-image: url(images/fundo.png);
+  padding-left: 50px;
+  padding-bottom: 50px;
+
+}
+
 .App {
-  text-align: center;
+  text-align: left;
   font-family: 'Rubik', sans-serif;
   color: white;
-
 }
+
 
 .h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
-.h4{
+.h4 {
   font-weight: lighter;
+  width: 320px;
+  padding-bottom: 40px;
 }
 
 .navbar {
@@ -20,17 +35,40 @@
   justify-content: space-between;
 }
 
-.items{
+.navbar img {
+  width: 50px;
+}
+
+.background {
+  background-color: white;
+  color: black;
   display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
-  width: fit-content;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.items {
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.background h4 {
+  color: gray;
+  font-weight: lighter;
+}
+
+
+.background img{
+  width: 80px;
   
 }
 
-.background{
+.button{
   background-color: white;
-  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
-
-

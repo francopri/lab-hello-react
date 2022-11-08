@@ -6,7 +6,7 @@ function Title() {
             </div>
 
             <div className="h4">
-                <h4>You will lear how to use the most popular frontend library, and become a super Ninja developer.</h4>
+                You will lear how to use the most popular frontend library, and become a super Ninja developer.
             </div>
         </div>
     );
